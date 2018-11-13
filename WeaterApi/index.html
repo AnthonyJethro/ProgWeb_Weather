@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Potato Weather App</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://rawgit.com/marvelapp/devices.css/master/assets/devices.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+	
+	
+
+			<!-- MEAT AND TATERS OF APP -->
+			<div class="screen">
+				
+				<h1>Welcome to Potato Weather app</h1>
+				<form method="get" class="form">
+					<fieldset>
+						
+						<ul class="list-reset">
+							<li class="form-field">
+								<label for="city-search">Enter city Name, then click one of the city listed</label>
+								<input type="text" id="city-search" placeholder="Potato">
+							</li>
+
+							<li class="form-field">
+								<label for="latitude">Latitude, just fill city name up there</label>
+								<input type="text" id="latitude" placeholder="Let it empty" required>
+							</li>
+
+							<li class="form-field">
+								<label for="longitude">Longitude</label>
+								<input type="text" id="longitude" placeholder="Just pass" required>
+							</li>
+
+							<li class="form-field">
+								<input type="checkbox" id="celsius">
+								<label for="celsius">Report Celsius</label>
+							</li>
+						</ul>
+					</fieldset>
+
+					<button>Start</button>
+				</form>
+			</div>
+			<!-- /END MEAT AND TATERS OF APP -->
+		
+
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.min.js'></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>
